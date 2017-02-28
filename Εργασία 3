@@ -1,0 +1,8 @@
+a=raw_input()
+c=len(a)
+for i in range (c):
+  if a[i]==0:
+    a.remove(i)
+    a.append(0)
+    print a
+	
