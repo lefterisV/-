@@ -1,0 +1,19 @@
+a=1
+i=0
+while (a<=1000):
+  i=i+1
+  if(a>=1 and a<=10):
+    print i,": ",a
+  elif(a>10 and a<=99):
+    if ((a[0]+a[1])%a==0):
+      print i," :",a
+    if(a[0]*a[1]!=0 and a[0]*a[1]%a==0):
+      print "O arithmos %d diaireitai me to ginomeno twn psifiwn tou" %(a)
+  elif(a>99 and a<=999):
+    if((a[0]+a[1]+a[2])%a==0):
+      print i," :",a
+    if(a[0]*a[1]*a[2]!=0 and a[0]*a[1]*a[2]%a==0):
+      print "O arithmos %d diaireitai me to ginomeno twn psifiwn tou" %(a)
+  elif(a==1000):
+    print a
+a=a+1
